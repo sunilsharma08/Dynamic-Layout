@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="e7R-EI-flj">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="cBE-tf-FFJ" customClass="HomeViewController" customModule="DynamicLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LVi-Nz-Hil">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BnT-9D-SQE">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Z4T-T6-Cy2">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="kAS-nV-Xsk"/>
+                                    <constraint firstAttribute="width" constant="37" id="sJq-3p-NJ6"/>
+                                </constraints>
+                                <color key="color" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BnT-9D-SQE" firstAttribute="bottom" secondItem="kgd-VL-p5m" secondAttribute="bottom" id="23w-nM-pFt"/>
+                            <constraint firstItem="BnT-9D-SQE" firstAttribute="top" secondItem="kgd-VL-p5m" secondAttribute="top" id="H6t-8Q-KUb"/>
+                            <constraint firstItem="Z4T-T6-Cy2" firstAttribute="centerY" secondItem="LVi-Nz-Hil" secondAttribute="centerY" id="Ys3-Oq-ExN"/>
+                            <constraint firstItem="Z4T-T6-Cy2" firstAttribute="centerX" secondItem="LVi-Nz-Hil" secondAttribute="centerX" id="ZMf-GZ-Oxa"/>
+                            <constraint firstItem="BnT-9D-SQE" firstAttribute="leading" secondItem="kgd-VL-p5m" secondAttribute="leading" id="nxL-4w-9zJ"/>
+                            <constraint firstItem="BnT-9D-SQE" firstAttribute="trailing" secondItem="kgd-VL-p5m" secondAttribute="trailing" id="vpk-hs-mPS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kgd-VL-p5m"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicatorView" destination="Z4T-T6-Cy2" id="eLh-aH-qae"/>
+                        <outlet property="layoutTableView" destination="BnT-9D-SQE" id="qab-vr-8P5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J9Y-VV-SQC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-578.39999999999998" y="156.97151424287858"/>
+        </scene>
+    </scenes>
+</document>

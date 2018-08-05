@@ -1,0 +1,55 @@
+{
+    "data": [
+        {
+            "contentType": "horizontalScroll",
+            "title": "Movies",
+            "items": [
+                {
+                    "contentType": "image",
+                    "url": "https://pixabay.com/get/ea30b60b2bf3083ed1584d05fb1d4f90eb75e4d61dac104496f3c57ca4e4b2bc_1280.jpg",
+                    "contentMode": "scaleToFill",
+                    "width": 200,
+                    "height": 300
+                },
+                {
+                    "contentType": "image",
+                    "url": "https://pixabay.com/get/ea30b7062cf3023ed1584d05fb1d4f90eb75e4d61dac104496f3c57ca4e4b2bc_1280.jpg",
+                    "contentMode": "scaleToFill",
+                    "width": 200,
+                    "height": 300
+                }
+            ]
+        },
+        {
+            "contentType": "image",
+            "title": "",
+            "url": "https://pixabay.com/get/ea30b20820f4003ed1584d05fb1d4f90eb75e4d61dac104496f3c57ca4e4b2bc_1280.jpg",
+            "width": 200,
+            "height": 300
+        },
+        {
+            "contentType": "text",
+            "message": "Some text description",
+            "font": "Sans",
+            "fontSize": 20,
+            "fontColor": "#f00"
+        },
+        {
+            "contentType": "image",
+            "title": "",
+            "url": "https://pixabay.com/get/ea30b6092bf6013ed1584d05fb1d4f90eb75e4d61dac104496f3c57ca4e4b2bc_1280.jpg",
+            "width": 200,
+            "height": 300
+        },
+        {
+            "contentType": "cardView",
+            "backgroundImage": "www.google.com/images/24.png",
+            "backgroundColor": "#00f",
+            "message": "Awesome",
+            "font": "Sans",
+            "fontSize": 20,
+            "fontColor": "#f00",
+            "textPosition": "top"
+        }
+    ]
+}
