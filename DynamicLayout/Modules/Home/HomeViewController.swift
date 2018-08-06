@@ -16,18 +16,33 @@ class HomeViewController: UIViewController {
     
     //Properties
     var presenter: HomePresenterInterface!
-    
+    var feedsAdapter: HomeFeedsAdapter?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        feedsAdapter = HomeFeedsAdapter(presenter: presenter)
         configureViews()
         presenter.viewDidLoad()
+        
     }
     
     func configureViews() {
+        customiseNavigationController()
         self.layoutTableView.register(ofType: TextFeedsTableViewCell.self)
-        self.layoutTableView.dataSource = self
+        self.layoutTableView.register(ofType: ImageFeedTableViewCell.self)
+        self.layoutTableView.register(ofType: HorizontalScrollTableViewCell.self)
+        
+        self.layoutTableView.dataSource = feedsAdapter
+        self.layoutTableView.delegate = feedsAdapter
         self.layoutTableView.tableFooterView = UIView()
+        self.layoutTableView.rowHeight = UITableViewAutomaticDimension
+        self.layoutTableView.estimatedRowHeight = 100
+    }
+    
+    func customiseNavigationController() {
+        self.navigationController?.navigationBar.barTintColor = AppColors.primary
+        self.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: AppColors.navTextColor]
+        self.navigationItem.title = NSLocalizedString("HOME_TITLE", comment: "")
     }
 
     override func didReceiveMemoryWarning() {
@@ -53,20 +68,20 @@ extension HomeViewController: HomeViewInterface {
 }
 
 
-extension HomeViewController: UITableViewDataSource {
-    
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return presenter.numberOfRowsInSection()
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:TextFeedsTableViewCell = tableView.dequeueReusableCell(for: indexPath)
-        let data = presenter.data(forIndexPath: indexPath)
-        cell.updateViewsWith(data: data)
-        return cell
-    }
-}
+//extension HomeViewController: UITableViewDataSource {
+//
+//    func numberOfSections(in tableView: UITableView) -> Int {
+//        return 1
+//    }
+//
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        return presenter.numberOfRowsInSection()
+//    }
+//
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell:TextFeedsTableViewCell = tableView.dequeueReusableCell(for: indexPath)
+//        let data = presenter.data(forIndexPath: indexPath)
+//        cell.updateViewsWith(data: data)
+//        return cell
+//    }
+//}

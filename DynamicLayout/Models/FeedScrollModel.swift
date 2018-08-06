@@ -1,5 +1,5 @@
 //
-//  HomeFeedModel.swift
+//  FeedScrollModel.swift
 //  DynamicLayout
 //
 //  Created by Sunil on 05/08/18.
@@ -8,18 +8,17 @@
 
 import Foundation
 
-protocol HomeFeedModel: Codable {
+protocol FeedScrollModel {
     
-    var type: HomeFeedType { get }
+    var type: FeedScrollType { get }
+    var title: String? {get set}
     var rowCount: Int { get }
-    var sectionTitle:String? { get set}
+    var items: [FeedItemModel] { get set }
     
 }
 
-extension HomeFeedModel {
-    
+extension FeedScrollModel {
     var rowCount: Int {
         return 1
     }
-    
 }

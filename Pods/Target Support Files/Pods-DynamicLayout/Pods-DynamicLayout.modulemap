@@ -1,0 +1,6 @@
+framework module Pods_DynamicLayout {
+  umbrella header "Pods-DynamicLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

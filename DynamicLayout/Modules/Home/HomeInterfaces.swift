@@ -19,12 +19,15 @@ protocol HomeViewInterface: ViewInterface {
 protocol HomePresenterInterface: PresenterInterface {
     func viewDidLoad()
     
-    func numberOfRowsInSection() -> Int
-    func data(forIndexPath indexPath: IndexPath) -> TextFeed
+    func numberOfSectionsInTableView() -> Int
+    func numberOfRows(inSection section: Int) -> Int
+    func numberOfItems(inSection section: Int) -> Int
+    func data(forIndexPath indexPath: IndexPath) -> FeedScrollModel
+    func horizontalScrollCellSize(forIndexPath indexPath: IndexPath) -> CGSize
+    func getContentPadding(forType type: FeedScrollType, indexPath: IndexPath) -> Int
     
-    func getFeedsData() -> [TextFeed]
 }
 
 protocol HomeInteractorInterface: InteractorInterface {
-    func getFeedsData(completion: ((_ status:ResponseStatus, _ feeds:[HomeFeedModel]?, _ error: ErrorData?) -> Void)?)
+    func getFeedsData(completion: ((_ status:ResponseStatus, _ feeds:[FeedScrollModel]?, _ error: ErrorData?) -> Void)?)
 }

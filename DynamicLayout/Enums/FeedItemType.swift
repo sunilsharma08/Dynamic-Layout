@@ -1,5 +1,5 @@
 //
-//  HomeFeedType.swift
+//  FeedItemType.swift
 //  DynamicLayout
 //
 //  Created by Sunil on 05/08/18.
@@ -8,8 +8,9 @@
 
 import Foundation
 
-enum HomeFeedType: String {
+enum FeedItemType: String, Codable {
+    
     case image = "image"
     case text = "text"
-    case horizontalScroll = "horizontalScroll"
+    
 }

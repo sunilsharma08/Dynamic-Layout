@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TextFeedsTableViewCell: UITableViewCell, ReusableView, NibLoadableView {
+class TextFeedsTableViewCell: UITableViewCell {
 
     @IBOutlet weak var textFeedLabel: UILabel!
     
@@ -21,9 +21,18 @@ class TextFeedsTableViewCell: UITableViewCell, ReusableView, NibLoadableView {
         super.setSelected(selected, animated: animated)
     }
     
-    func updateViewsWith(data: TextFeed) {
-        textFeedLabel.text = data.message
-        textFeedLabel.sizeToFit()
+    func updateViewsWith(data: FeedItemModel) {
+        if let textFeed = data as? TextFeed {
+            textFeedLabel.text = textFeed.message
+            textFeedLabel.textColor = UIColor(hexCode: textFeed.fontColor)
+            textFeedLabel.font = UIFont(name: textFeed.fontName.rawValue,
+                                        size: CGFloat(textFeed.fontSize))
+            textFeedLabel.sizeToFit()
+        } else {
+            textFeedLabel.text = nil
+            textFeedLabel.sizeToFit()
+        }
+        
     }
     
 }

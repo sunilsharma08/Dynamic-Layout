@@ -8,24 +8,22 @@
 
 import Foundation
 
-struct TextFeed: HomeFeedModel {
+struct TextFeed: FeedItemModel {
     
-    var type: HomeFeedType {
+    var type: FeedItemType {
         return .text
     }
     
-    var sectionTitle: String?
-    var title:String?
     var message: String?
-    var fontName: String = "System"
-    var fontSize: Int = 15
+    var fontName: FontType = .defaultFont
+    var fontSize: Int = 16
     var fontColor: String = "#fff"
     
-    enum CodingKeys: String, CodingKey {
-        case sectionTitle = "title"
-        case message
-        case fontName = "font"
-        case fontSize
-        case fontColor
+    init(json: [String: Any]) {
+        self.message = json[JSONKeys.message] as? String ?? ""
+        self.fontSize = json[JSONKeys.fontSize] as? Int ?? 16
+        let fontName = json[JSONKeys.fontName] as? String
+        self.fontName = FeedJsonParser().getFontTypeFrom(string: fontName)
+        self.fontColor = json[JSONKeys.fontColor] as? String ?? "#fff"
     }
 }

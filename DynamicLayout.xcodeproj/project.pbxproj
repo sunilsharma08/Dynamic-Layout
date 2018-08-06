@@ -38,12 +38,33 @@
 		10BF731E2115E9C300D91184 /* TextFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF731D2115E9C300D91184 /* TextFeed.swift */; };
 		10BF73232116439600D91184 /* LocalDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF73222116439600D91184 /* LocalDataService.swift */; };
 		10BF73252116489300D91184 /* ImageFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF73242116489300D91184 /* ImageFeed.swift */; };
-		10BF732721164A2900D91184 /* HomeFeedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF732621164A2900D91184 /* HomeFeedType.swift */; };
-		10BF732921164B0800D91184 /* HomeFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF732821164B0800D91184 /* HomeFeedModel.swift */; };
+		10BF732721164A2900D91184 /* FeedItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF732621164A2900D91184 /* FeedItemType.swift */; };
+		10BF732921164B0800D91184 /* FeedItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF732821164B0800D91184 /* FeedItemModel.swift */; };
 		10BF732B21164F6200D91184 /* ErrorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF732A21164F6200D91184 /* ErrorData.swift */; };
 		10BF732D2116D90E00D91184 /* ResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF732C2116D90E00D91184 /* ResponseStatus.swift */; };
 		10BF73302116DC5800D91184 /* ImageFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF732E2116DC5800D91184 /* ImageFeedTableViewCell.swift */; };
 		10BF73312116DC5800D91184 /* ImageFeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10BF732F2116DC5800D91184 /* ImageFeedTableViewCell.xib */; };
+		10BF73332116F1B700D91184 /* HomeFeedsAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF73322116F1B700D91184 /* HomeFeedsAdapter.swift */; };
+		10BF73372117234500D91184 /* FeedScrollType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF73362117234500D91184 /* FeedScrollType.swift */; };
+		10BF7339211723DB00D91184 /* FeedScrollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF7338211723DB00D91184 /* FeedScrollModel.swift */; };
+		10BF733B2117245F00D91184 /* HorizontalScrollFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF733A2117245F00D91184 /* HorizontalScrollFeed.swift */; };
+		10BF733D211724DF00D91184 /* VerticalScrollFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF733C211724DF00D91184 /* VerticalScrollFeed.swift */; };
+		10BF734021174E4800D91184 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF733F21174E4800D91184 /* Constants.swift */; };
+		10BF73422117752E00D91184 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF73412117752E00D91184 /* Utility.swift */; };
+		10BF734421177F3900D91184 /* GreatVibes-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10BF734321177F3900D91184 /* GreatVibes-Regular.otf */; };
+		10BF734621177F4800D91184 /* Beyond-Wonderland.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10BF734521177F4800D91184 /* Beyond-Wonderland.ttf */; };
+		10BF73482117804900D91184 /* FontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF73472117804900D91184 /* FontType.swift */; };
+		10BF734A2117864000D91184 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF73492117864000D91184 /* UIColorExtension.swift */; };
+		10BF734C21178B5600D91184 /* FeedJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF734B21178B5600D91184 /* FeedJsonParser.swift */; };
+		10BF734E2117B9BF00D91184 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10BF734D2117B9BF00D91184 /* Localizable.strings */; };
+		10BF73512117BC4600D91184 /* HorizontalScrollTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF734F2117BC4600D91184 /* HorizontalScrollTableViewCell.swift */; };
+		10BF73522117BC4600D91184 /* HorizontalScrollTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10BF73502117BC4600D91184 /* HorizontalScrollTableViewCell.xib */; };
+		10BF73582117BE6A00D91184 /* HorizontalScrollAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF73572117BE6A00D91184 /* HorizontalScrollAdapter.swift */; };
+		10BF735B21181CFB00D91184 /* ImageFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF735921181CFB00D91184 /* ImageFeedCollectionViewCell.swift */; };
+		10BF735C21181CFB00D91184 /* ImageFeedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10BF735A21181CFB00D91184 /* ImageFeedCollectionViewCell.xib */; };
+		532E7A1B037CFEF9F332C85F /* Pods_DynamicLayoutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D11F09ADB90FFB1F78A195 /* Pods_DynamicLayoutTests.framework */; };
+		C5375AC6FBFBA4C0850A2D83 /* Pods_DynamicLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C87EA59416918491DABA253 /* Pods_DynamicLayout.framework */; };
+		F7D142279A276DE11FE333B1 /* Pods_DynamicLayoutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2614617B1BCD46F59E35043 /* Pods_DynamicLayoutUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +85,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07D11F09ADB90FFB1F78A195 /* Pods_DynamicLayoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicLayoutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BF72AD211541C100D91184 /* DynamicLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BF72B0211541C100D91184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10BF72B5211541C100D91184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -101,12 +123,38 @@
 		10BF731D2115E9C300D91184 /* TextFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFeed.swift; sourceTree = "<group>"; };
 		10BF73222116439600D91184 /* LocalDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataService.swift; sourceTree = "<group>"; };
 		10BF73242116489300D91184 /* ImageFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeed.swift; sourceTree = "<group>"; };
-		10BF732621164A2900D91184 /* HomeFeedType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedType.swift; sourceTree = "<group>"; };
-		10BF732821164B0800D91184 /* HomeFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedModel.swift; sourceTree = "<group>"; };
+		10BF732621164A2900D91184 /* FeedItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemType.swift; sourceTree = "<group>"; };
+		10BF732821164B0800D91184 /* FeedItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemModel.swift; sourceTree = "<group>"; };
 		10BF732A21164F6200D91184 /* ErrorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorData.swift; sourceTree = "<group>"; };
 		10BF732C2116D90E00D91184 /* ResponseStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseStatus.swift; sourceTree = "<group>"; };
 		10BF732E2116DC5800D91184 /* ImageFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeedTableViewCell.swift; sourceTree = "<group>"; };
 		10BF732F2116DC5800D91184 /* ImageFeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageFeedTableViewCell.xib; sourceTree = "<group>"; };
+		10BF73322116F1B700D91184 /* HomeFeedsAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedsAdapter.swift; sourceTree = "<group>"; };
+		10BF73362117234500D91184 /* FeedScrollType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedScrollType.swift; sourceTree = "<group>"; };
+		10BF7338211723DB00D91184 /* FeedScrollModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedScrollModel.swift; sourceTree = "<group>"; };
+		10BF733A2117245F00D91184 /* HorizontalScrollFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollFeed.swift; sourceTree = "<group>"; };
+		10BF733C211724DF00D91184 /* VerticalScrollFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollFeed.swift; sourceTree = "<group>"; };
+		10BF733F21174E4800D91184 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		10BF73412117752E00D91184 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		10BF734321177F3900D91184 /* GreatVibes-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreatVibes-Regular.otf"; sourceTree = "<group>"; };
+		10BF734521177F4800D91184 /* Beyond-Wonderland.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Beyond-Wonderland.ttf"; sourceTree = "<group>"; };
+		10BF73472117804900D91184 /* FontType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontType.swift; sourceTree = "<group>"; };
+		10BF73492117864000D91184 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		10BF734B21178B5600D91184 /* FeedJsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedJsonParser.swift; sourceTree = "<group>"; };
+		10BF734D2117B9BF00D91184 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		10BF734F2117BC4600D91184 /* HorizontalScrollTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollTableViewCell.swift; sourceTree = "<group>"; };
+		10BF73502117BC4600D91184 /* HorizontalScrollTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalScrollTableViewCell.xib; sourceTree = "<group>"; };
+		10BF73572117BE6A00D91184 /* HorizontalScrollAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollAdapter.swift; sourceTree = "<group>"; };
+		10BF735921181CFB00D91184 /* ImageFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		10BF735A21181CFB00D91184 /* ImageFeedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageFeedCollectionViewCell.xib; sourceTree = "<group>"; };
+		60EC88135918F6B6F1557A03 /* Pods-DynamicLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicLayout/Pods-DynamicLayout.release.xcconfig"; sourceTree = "<group>"; };
+		9A2EBC830B3E5A7370D398EA /* Pods-DynamicLayoutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLayoutUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicLayoutUITests/Pods-DynamicLayoutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C87EA59416918491DABA253 /* Pods_DynamicLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43D1BA999AE5105B3D658E0 /* Pods-DynamicLayoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLayoutTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicLayoutTests/Pods-DynamicLayoutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC750D733F7D4E4BF0328E3F /* Pods-DynamicLayoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLayoutTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicLayoutTests/Pods-DynamicLayoutTests.release.xcconfig"; sourceTree = "<group>"; };
+		D0887907AC66927F81CBC95F /* Pods-DynamicLayoutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLayoutUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicLayoutUITests/Pods-DynamicLayoutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F2614617B1BCD46F59E35043 /* Pods_DynamicLayoutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicLayoutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE09E8C4DE27EA2EB9BFB8B /* Pods-DynamicLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicLayout/Pods-DynamicLayout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5375AC6FBFBA4C0850A2D83 /* Pods_DynamicLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532E7A1B037CFEF9F332C85F /* Pods_DynamicLayoutTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7D142279A276DE11FE333B1 /* Pods_DynamicLayoutUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +192,8 @@
 				10BF72C4211541C300D91184 /* DynamicLayoutTests */,
 				10BF72CF211541C300D91184 /* DynamicLayoutUITests */,
 				10BF72AE211541C100D91184 /* Products */,
+				8F80397328C264C94652C32C /* Pods */,
+				BC58365AC926160665A5727B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,7 +211,6 @@
 			isa = PBXGroup;
 			children = (
 				10BF7320211642E300D91184 /* Services */,
-				10BF731F21161C9B00D91184 /* Adapters */,
 				10BF731C2115E99400D91184 /* Models */,
 				10BF730B2115C2C100D91184 /* Utilities */,
 				10BF72F6211571D300D91184 /* BaseVIPER */,
@@ -202,6 +254,7 @@
 		10BF72DF2115427700D91184 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				10BF731F21161C9B00D91184 /* Adapters */,
 				10BF72E72115439E00D91184 /* CollectionViewCells */,
 				10BF72E62115438E00D91184 /* TableViewCells */,
 				10BF72E82115446A00D91184 /* HomeInterfaces.swift */,
@@ -236,6 +289,7 @@
 		10BF72E3211542F300D91184 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
+				10BF734D2117B9BF00D91184 /* Localizable.strings */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -243,6 +297,8 @@
 		10BF72E4211542FC00D91184 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				10BF734321177F3900D91184 /* GreatVibes-Regular.otf */,
+				10BF734521177F4800D91184 /* Beyond-Wonderland.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -263,6 +319,8 @@
 				10BF73192115CBD800D91184 /* TextFeedsTableViewCell.xib */,
 				10BF732E2116DC5800D91184 /* ImageFeedTableViewCell.swift */,
 				10BF732F2116DC5800D91184 /* ImageFeedTableViewCell.xib */,
+				10BF734F2117BC4600D91184 /* HorizontalScrollTableViewCell.swift */,
+				10BF73502117BC4600D91184 /* HorizontalScrollTableViewCell.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -270,6 +328,8 @@
 		10BF72E72115439E00D91184 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				10BF735921181CFB00D91184 /* ImageFeedCollectionViewCell.swift */,
+				10BF735A21181CFB00D91184 /* ImageFeedCollectionViewCell.xib */,
 			);
 			path = CollectionViewCells;
 			sourceTree = "<group>";
@@ -305,6 +365,7 @@
 				10BF73102115C3BE00D91184 /* UITableViewExtension.swift */,
 				10BF73122115C3D300D91184 /* UICollectionViewCellExtension.swift */,
 				10BF73142115C3E800D91184 /* UICollectionViewExtension.swift */,
+				10BF73492117864000D91184 /* UIColorExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -312,8 +373,10 @@
 		10BF72FC2115754900D91184 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				10BF732621164A2900D91184 /* HomeFeedType.swift */,
+				10BF732621164A2900D91184 /* FeedItemType.swift */,
 				10BF732C2116D90E00D91184 /* ResponseStatus.swift */,
+				10BF73362117234500D91184 /* FeedScrollType.swift */,
+				10BF73472117804900D91184 /* FontType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -321,6 +384,8 @@
 		10BF730B2115C2C100D91184 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				10BF733F21174E4800D91184 /* Constants.swift */,
+				10BF73412117752E00D91184 /* Utility.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -328,10 +393,13 @@
 		10BF731C2115E99400D91184 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				10BF732A21164F6200D91184 /* ErrorData.swift */,
 				10BF731D2115E9C300D91184 /* TextFeed.swift */,
 				10BF73242116489300D91184 /* ImageFeed.swift */,
-				10BF732821164B0800D91184 /* HomeFeedModel.swift */,
-				10BF732A21164F6200D91184 /* ErrorData.swift */,
+				10BF732821164B0800D91184 /* FeedItemModel.swift */,
+				10BF7338211723DB00D91184 /* FeedScrollModel.swift */,
+				10BF733A2117245F00D91184 /* HorizontalScrollFeed.swift */,
+				10BF733C211724DF00D91184 /* VerticalScrollFeed.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -339,6 +407,8 @@
 		10BF731F21161C9B00D91184 /* Adapters */ = {
 			isa = PBXGroup;
 			children = (
+				10BF73322116F1B700D91184 /* HomeFeedsAdapter.swift */,
+				10BF73572117BE6A00D91184 /* HorizontalScrollAdapter.swift */,
 			);
 			path = Adapters;
 			sourceTree = "<group>";
@@ -347,8 +417,32 @@
 			isa = PBXGroup;
 			children = (
 				10BF73222116439600D91184 /* LocalDataService.swift */,
+				10BF734B21178B5600D91184 /* FeedJsonParser.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		8F80397328C264C94652C32C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDE09E8C4DE27EA2EB9BFB8B /* Pods-DynamicLayout.debug.xcconfig */,
+				60EC88135918F6B6F1557A03 /* Pods-DynamicLayout.release.xcconfig */,
+				A43D1BA999AE5105B3D658E0 /* Pods-DynamicLayoutTests.debug.xcconfig */,
+				BC750D733F7D4E4BF0328E3F /* Pods-DynamicLayoutTests.release.xcconfig */,
+				9A2EBC830B3E5A7370D398EA /* Pods-DynamicLayoutUITests.debug.xcconfig */,
+				D0887907AC66927F81CBC95F /* Pods-DynamicLayoutUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC58365AC926160665A5727B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C87EA59416918491DABA253 /* Pods_DynamicLayout.framework */,
+				07D11F09ADB90FFB1F78A195 /* Pods_DynamicLayoutTests.framework */,
+				F2614617B1BCD46F59E35043 /* Pods_DynamicLayoutUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,9 +452,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10BF72D5211541C300D91184 /* Build configuration list for PBXNativeTarget "DynamicLayout" */;
 			buildPhases = (
+				1E8D92234CB8EA29978AF121 /* [CP] Check Pods Manifest.lock */,
 				10BF72A9211541C100D91184 /* Sources */,
 				10BF72AA211541C100D91184 /* Frameworks */,
 				10BF72AB211541C100D91184 /* Resources */,
+				E8758D8B4A692F8F8C3355FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -375,6 +471,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10BF72D8211541C300D91184 /* Build configuration list for PBXNativeTarget "DynamicLayoutTests" */;
 			buildPhases = (
+				D66A3D61D941D6892BE878F7 /* [CP] Check Pods Manifest.lock */,
 				10BF72BD211541C300D91184 /* Sources */,
 				10BF72BE211541C300D91184 /* Frameworks */,
 				10BF72BF211541C300D91184 /* Resources */,
@@ -393,6 +490,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10BF72DB211541C300D91184 /* Build configuration list for PBXNativeTarget "DynamicLayoutUITests" */;
 			buildPhases = (
+				24AE6B052FE64964537DD3AE /* [CP] Check Pods Manifest.lock */,
 				10BF72C8211541C300D91184 /* Sources */,
 				10BF72C9211541C300D91184 /* Frameworks */,
 				10BF72CA211541C300D91184 /* Resources */,
@@ -455,13 +553,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10BF734421177F3900D91184 /* GreatVibes-Regular.otf in Resources */,
 				10BF72BB211541C300D91184 /* LaunchScreen.storyboard in Resources */,
 				10BF730221158B6E00D91184 /* Home.storyboard in Resources */,
 				10BF72B8211541C300D91184 /* Assets.xcassets in Resources */,
 				10BF73312116DC5800D91184 /* ImageFeedTableViewCell.xib in Resources */,
+				10BF73522117BC4600D91184 /* HorizontalScrollTableViewCell.xib in Resources */,
+				10BF734E2117B9BF00D91184 /* Localizable.strings in Resources */,
 				10BF72B6211541C100D91184 /* Main.storyboard in Resources */,
 				10BF731B2115CBD800D91184 /* TextFeedsTableViewCell.xib in Resources */,
 				10BF72F52115461700D91184 /* HomeFeeds.json in Resources */,
+				10BF734621177F4800D91184 /* Beyond-Wonderland.ttf in Resources */,
+				10BF735C21181CFB00D91184 /* ImageFeedCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,37 +584,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E8D92234CB8EA29978AF121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamicLayout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24AE6B052FE64964537DD3AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamicLayoutUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D66A3D61D941D6892BE878F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamicLayoutTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8758D8B4A692F8F8C3355FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DynamicLayout/Pods-DynamicLayout-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicLayout/Pods-DynamicLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10BF72A9211541C100D91184 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10BF73422117752E00D91184 /* Utility.swift in Sources */,
 				10BF72EB211544AA00D91184 /* HomePresenter.swift in Sources */,
+				10BF734021174E4800D91184 /* Constants.swift in Sources */,
 				10BF73302116DC5800D91184 /* ImageFeedTableViewCell.swift in Sources */,
+				10BF733B2117245F00D91184 /* HorizontalScrollFeed.swift in Sources */,
 				10BF73082115A03600D91184 /* BaseView.swift in Sources */,
+				10BF7339211723DB00D91184 /* FeedScrollModel.swift in Sources */,
 				10BF72E92115446A00D91184 /* HomeInterfaces.swift in Sources */,
+				10BF734A2117864000D91184 /* UIColorExtension.swift in Sources */,
 				10BF73232116439600D91184 /* LocalDataService.swift in Sources */,
+				10BF735B21181CFB00D91184 /* ImageFeedCollectionViewCell.swift in Sources */,
+				10BF73512117BC4600D91184 /* HorizontalScrollTableViewCell.swift in Sources */,
 				10BF73112115C3BE00D91184 /* UITableViewExtension.swift in Sources */,
 				10BF73152115C3E800D91184 /* UICollectionViewExtension.swift in Sources */,
 				10BF73002115849C00D91184 /* UIStoryboardExtension.swift in Sources */,
 				10BF731E2115E9C300D91184 /* TextFeed.swift in Sources */,
 				10BF731A2115CBD800D91184 /* TextFeedsTableViewCell.swift in Sources */,
+				10BF73372117234500D91184 /* FeedScrollType.swift in Sources */,
 				10BF732D2116D90E00D91184 /* ResponseStatus.swift in Sources */,
 				10BF72FE21157AB300D91184 /* UIViewControllerExtension.swift in Sources */,
 				10BF73252116489300D91184 /* ImageFeed.swift in Sources */,
 				10BF730D2115C2E300D91184 /* ReusableView.swift in Sources */,
 				10BF72B1211541C100D91184 /* AppDelegate.swift in Sources */,
+				10BF73582117BE6A00D91184 /* HorizontalScrollAdapter.swift in Sources */,
 				10BF7306211592BD00D91184 /* BaseInteractor.swift in Sources */,
 				10BF72F0211544FF00D91184 /* HomeWireframe.swift in Sources */,
-				10BF732921164B0800D91184 /* HomeFeedModel.swift in Sources */,
+				10BF732921164B0800D91184 /* FeedItemModel.swift in Sources */,
 				10BF72F82115720600D91184 /* BaseWireframe.swift in Sources */,
 				10BF72ED211544D300D91184 /* HomeInteractor.swift in Sources */,
+				10BF734C21178B5600D91184 /* FeedJsonParser.swift in Sources */,
 				10BF72F22115452800D91184 /* HomeViewController.swift in Sources */,
 				10BF73172115C66A00D91184 /* NibLoadableView.swift in Sources */,
 				10BF730F2115C3A000D91184 /* UITableViewCellExtension.swift in Sources */,
-				10BF732721164A2900D91184 /* HomeFeedType.swift in Sources */,
+				10BF732721164A2900D91184 /* FeedItemType.swift in Sources */,
 				10BF732B21164F6200D91184 /* ErrorData.swift in Sources */,
+				10BF73482117804900D91184 /* FontType.swift in Sources */,
 				10BF72FB211574F100D91184 /* UINavigationControllerExtension.swift in Sources */,
+				10BF733D211724DF00D91184 /* VerticalScrollFeed.swift in Sources */,
+				10BF73332116F1B700D91184 /* HomeFeedsAdapter.swift in Sources */,
 				10BF73042115929C00D91184 /* BasePresenter.swift in Sources */,
 				10BF73132115C3D300D91184 /* UICollectionViewCellExtension.swift in Sources */,
 			);
@@ -684,6 +875,7 @@
 		};
 		10BF72D6211541C300D91184 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE09E8C4DE27EA2EB9BFB8B /* Pods-DynamicLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -702,6 +894,7 @@
 		};
 		10BF72D7211541C300D91184 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60EC88135918F6B6F1557A03 /* Pods-DynamicLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -720,6 +913,7 @@
 		};
 		10BF72D9211541C300D91184 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43D1BA999AE5105B3D658E0 /* Pods-DynamicLayoutTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -741,6 +935,7 @@
 		};
 		10BF72DA211541C300D91184 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC750D733F7D4E4BF0328E3F /* Pods-DynamicLayoutTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -762,6 +957,7 @@
 		};
 		10BF72DC211541C300D91184 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A2EBC830B3E5A7370D398EA /* Pods-DynamicLayoutUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -782,6 +978,7 @@
 		};
 		10BF72DD211541C300D91184 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0887907AC66927F81CBC95F /* Pods-DynamicLayoutUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
