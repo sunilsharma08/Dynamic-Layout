@@ -1,54 +1,89 @@
 {
     "data": [
         {
+            "scrollType": "vertical",
+            "items": [
+                {
+                    "contentType": "text",
+                    "message": "Latest Movies",
+                    "font": "BeyondWonderland",
+                    "fontSize": 26,
+                    "fontColor": "#DC3D24",
+                    "backGroundColor": "#232B2B",
+                    "padding": 16
+                }
+            ]
+        },
+        {
             "scrollType":"horizontal",
-            "title": "Latest",
             "height": 0.4,
             "width": 0.8,
-            "padding": 16,
+            "padding": 20,
+            "backGroundColor": "#f1f1f2",
             "items": [
                 {
                     "contentType": "image",
-                    "url": "https://pixabay.com/get/ea30b60b2bf3083ed1584d05fb1d4f90eb75e4d61dac104496f3c57ca4e4b2bc_1280.jpg",
+                    "url": "https://pixabay.com/get/ea36b20a21fd1c22d2524518b745409ee171e1d104b0144296f5c47bafe9b7_1280.jpg",
+                    "contentMode": "scaleToFill",
+                    "padding": 16
+                },
+                {
+                    "contentType": "image",
+                    "url": "https://cdn.pixabay.com/photo/2015/04/08/01/47/superhero-712055_1280.jpg",
                     "contentMode": "scaleToFill"
                 },
                 {
                     "contentType": "image",
-                    "url": "https://pixabay.com/get/ea30b7062cf3023ed1584d05fb1d4f90eb75e4d61dac104496f3c57ca4e4b2bc_1280.jpg",
-                    "contentMode": "scaleToFill"
-                },
-                {
-                    "contentType": "image",
-                    "url": "https://pixabay.com/get/ea30b60b2bf3083ed1584d05fb1d4f90eb75e4d61dac104496f3c57ca4e4b2bc_1280.jpg",
+                    "url": "https://cdn.pixabay.com/photo/2017/08/01/14/42/knight-2565957_1280.jpg",
                     "contentMode": "scaleToFill"
                 }
             ]
         },
         {
             "scrollType": "vertical",
-            "title": "Movies",
             "items": [
                 {
+                    "contentType": "text",
+                    "message": "Movies",
+                    "font": "BeyondWonderland",
+                    "fontSize": 20,
+                    "fontColor": "#fff",
+                    "backGroundColor": "#2f3131",
+                    "padding": 16
+                },
+                {
                     "contentType": "image",
-                    "url": "https://pixabay.com/get/ea30b60b2bf3083ed1584d05fb1d4f90eb75e4d61dac104496f3c57ca4e4b2bc_1280.jpg",
+                    "url": "https://wallpapercave.com/wp/H99Ek3d.jpg",
                     "contentMode": "scaleToFill",
                     "height": 853,
                     "width": 1280,
-                    "widthPercent": 1
+                    "widthPercent": 1,
+                    "padding": 0
                 },
                 {
                     "contentType": "text",
-                    "message": "Some text description hoihdojo bdb Some text description hoihdojo bdb Some text description hoihdojo bdb Some text description hoihdojo bdb Some text description hoihdojo bdb",
+                    "message": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English",
                     "font": "GreatVibes-Regular",
                     "fontSize": 20,
-                    "fontColor": "#f00"
+                    "fontColor": "#f00",
+                    "backGroundColor": "#fff"
                 },
                 {
                     "contentType": "image",
-                    "url": "https://pixabay.com/get/ea30b7062cf3023ed1584d05fb1d4f90eb75e4d61dac104496f3c57ca4e4b2bc_1280.jpg",
+                    "url": "http://www.100hdwallpapers.com/wallpapers/3840x2400/venom_tom_hardy_5k-widescreen_wallpapers.jpg",
                     "contentMode": "aspectFit",
                     "height": 853,
-                    "width": 1280
+                    "width": 1280,
+                    "padding": 8,
+                    "backGroundColor": "#16253D"
+                },
+                {
+                    "contentType": "image",
+                    "url": "http://getwallpapers.com/wallpaper/full/a/b/b/133954.jpg",
+                    "contentMode": "aspectFill",
+                    "height": 853,
+                    "width": 1280,
+                    "padding": 8
                 }
             ]
         }

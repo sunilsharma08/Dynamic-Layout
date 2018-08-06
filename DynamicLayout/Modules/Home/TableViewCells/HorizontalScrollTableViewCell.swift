@@ -29,7 +29,9 @@ class HorizontalScrollTableViewCell: UITableViewCell {
         hScrollAdapter = HorizontalScrollAdapter(indexPath: indexPath, presenter: presenter)
         hScrollCollectionView.dataSource = hScrollAdapter
         hScrollCollectionView.delegate = hScrollAdapter
-        
+        if let data = presenter.data(forIndexPath: indexPath) as? HorizontalScrollFeed {
+            hScrollCollectionView.backgroundColor = UIColor(hexCode: data.backgroundColor)
+        }
     }
     
 }

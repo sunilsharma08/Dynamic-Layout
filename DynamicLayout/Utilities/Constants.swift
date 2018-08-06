@@ -19,7 +19,6 @@ struct JSONKeys {
     
     static let data = "data"
     static let scrollType = "scrollType"
-    static let title = "title"
     static let height = "height"
     static let width = "width"
     static let items = "items"
@@ -32,6 +31,7 @@ struct JSONKeys {
     static let fontName = "font"
     static let fontColor = "fontColor"
     static let padding = "padding"
+    static let backGroundColor = "backGroundColor"
     
 }
 

@@ -62,6 +62,7 @@
 		10BF73582117BE6A00D91184 /* HorizontalScrollAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF73572117BE6A00D91184 /* HorizontalScrollAdapter.swift */; };
 		10BF735B21181CFB00D91184 /* ImageFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF735921181CFB00D91184 /* ImageFeedCollectionViewCell.swift */; };
 		10BF735C21181CFB00D91184 /* ImageFeedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10BF735A21181CFB00D91184 /* ImageFeedCollectionViewCell.xib */; };
+		10BF735E211850D600D91184 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BF735D211850D600D91184 /* CustomLabel.swift */; };
 		532E7A1B037CFEF9F332C85F /* Pods_DynamicLayoutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D11F09ADB90FFB1F78A195 /* Pods_DynamicLayoutTests.framework */; };
 		C5375AC6FBFBA4C0850A2D83 /* Pods_DynamicLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C87EA59416918491DABA253 /* Pods_DynamicLayout.framework */; };
 		F7D142279A276DE11FE333B1 /* Pods_DynamicLayoutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2614617B1BCD46F59E35043 /* Pods_DynamicLayoutUITests.framework */; };
@@ -147,6 +148,7 @@
 		10BF73572117BE6A00D91184 /* HorizontalScrollAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollAdapter.swift; sourceTree = "<group>"; };
 		10BF735921181CFB00D91184 /* ImageFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeedCollectionViewCell.swift; sourceTree = "<group>"; };
 		10BF735A21181CFB00D91184 /* ImageFeedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageFeedCollectionViewCell.xib; sourceTree = "<group>"; };
+		10BF735D211850D600D91184 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		60EC88135918F6B6F1557A03 /* Pods-DynamicLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicLayout/Pods-DynamicLayout.release.xcconfig"; sourceTree = "<group>"; };
 		9A2EBC830B3E5A7370D398EA /* Pods-DynamicLayoutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicLayoutUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicLayoutUITests/Pods-DynamicLayoutUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C87EA59416918491DABA253 /* Pods_DynamicLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -386,6 +388,7 @@
 			children = (
 				10BF733F21174E4800D91184 /* Constants.swift */,
 				10BF73412117752E00D91184 /* Utility.swift */,
+				10BF735D211850D600D91184 /* CustomLabel.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -695,6 +698,7 @@
 				10BF72ED211544D300D91184 /* HomeInteractor.swift in Sources */,
 				10BF734C21178B5600D91184 /* FeedJsonParser.swift in Sources */,
 				10BF72F22115452800D91184 /* HomeViewController.swift in Sources */,
+				10BF735E211850D600D91184 /* CustomLabel.swift in Sources */,
 				10BF73172115C66A00D91184 /* NibLoadableView.swift in Sources */,
 				10BF730F2115C3A000D91184 /* UITableViewCellExtension.swift in Sources */,
 				10BF732721164A2900D91184 /* FeedItemType.swift in Sources */,

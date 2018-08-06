@@ -47,7 +47,7 @@ extension HorizontalScrollAdapter: UICollectionViewDelegateFlowLayout {
 extension HorizontalScrollAdapter: UICollectionViewDataSource, UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return presenter.numberOfItems(inSection: section)
+        return presenter.numberOfItems(inSection: parentIndexPath.section)
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

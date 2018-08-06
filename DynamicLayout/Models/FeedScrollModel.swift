@@ -11,7 +11,6 @@ import Foundation
 protocol FeedScrollModel {
     
     var type: FeedScrollType { get }
-    var title: String? {get set}
     var rowCount: Int { get }
     var items: [FeedItemModel] { get set }
     

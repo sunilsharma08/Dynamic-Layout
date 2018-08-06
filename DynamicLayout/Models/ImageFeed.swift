@@ -17,11 +17,15 @@ struct ImageFeed: FeedItemModel {
     var contentMode:UIViewContentMode
     var width: CGFloat
     var height: CGFloat
+    var padding: Int
+    var backGroundColor: String = "#fff"
     
     init(json: [String: Any]) {
         self.url = json[JSONKeys.imageUrl] as? String ?? ""
         let contentMode = json[JSONKeys.contentMode] as? String
         self.contentMode = FeedJsonParser().getImageViewContentMode(type:  contentMode)
+        self.padding = json[JSONKeys.padding] as? Int ?? 0
+        self.backGroundColor = json[JSONKeys.backGroundColor] as? String ?? "#fff"
         
         self.height = json[JSONKeys.height] as? CGFloat ?? 0
         self.width = json[JSONKeys.width] as? CGFloat ?? 0

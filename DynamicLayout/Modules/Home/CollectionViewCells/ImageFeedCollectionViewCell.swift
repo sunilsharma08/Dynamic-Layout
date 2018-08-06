@@ -19,9 +19,8 @@ class ImageFeedCollectionViewCell: UICollectionViewCell {
     func updateViewWith(data: FeedItemModel) {
         if let imageFeed = data as? ImageFeed {
             feedImageView.contentMode = imageFeed.contentMode
-            print("collection image height = \(imageFeed.height)  width = \(imageFeed.width)")
             feedImageView.sd_setImage(with: URL(string: imageFeed.url),
-                                      placeholderImage: nil, options: [.retryFailed],
+                                      placeholderImage: UIImage(named: "placeholder"), options: [.retryFailed],
                                       completed: nil)
         } else {
             feedImageView.image = nil

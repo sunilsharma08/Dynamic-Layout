@@ -27,13 +27,15 @@ class ImageFeedTableViewCell: UITableViewCell {
     func updateViewWith(data: FeedItemModel) {
         if let imageFeed = data as? ImageFeed {
             feedImageView.frame.origin = .zero
-            feedImageView.frame.size.width = CGFloat(imageFeed.width)
-            feedImageView.frame.size.height = CGFloat(imageFeed.height)
+            let padding:CGFloat = CGFloat(imageFeed.padding * 2)
+            feedImageView.backgroundColor = .clear
+            self.contentView.backgroundColor = UIColor(hexCode: imageFeed.backGroundColor)
+            feedImageView.frame.size.width = CGFloat(imageFeed.width) - padding
+            feedImageView.frame.size.height = CGFloat(imageFeed.height) - padding
             feedImageView.center = self.contentView.center
             feedImageView.contentMode = imageFeed.contentMode
-            print("image height = \(imageFeed.height)  width = \(imageFeed.width)")
             feedImageView.sd_setImage(with: URL(string: imageFeed.url),
-                                      placeholderImage: nil, options: [.retryFailed],
+                                      placeholderImage: UIImage(named: "placeholder"), options: [.retryFailed],
                                       completed: nil)
         } else {
             feedImageView.image = nil
