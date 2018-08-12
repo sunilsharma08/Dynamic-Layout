@@ -66,22 +66,3 @@ extension HomeViewController: HomeViewInterface {
     }
     
 }
-
-
-//extension HomeViewController: UITableViewDataSource {
-//
-//    func numberOfSections(in tableView: UITableView) -> Int {
-//        return 1
-//    }
-//
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return presenter.numberOfRowsInSection()
-//    }
-//
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell:TextFeedsTableViewCell = tableView.dequeueReusableCell(for: indexPath)
-//        let data = presenter.data(forIndexPath: indexPath)
-//        cell.updateViewsWith(data: data)
-//        return cell
-//    }
-//}

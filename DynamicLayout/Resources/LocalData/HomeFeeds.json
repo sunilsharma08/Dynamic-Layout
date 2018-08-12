@@ -22,11 +22,23 @@
             "backGroundColor": "#f1f1f2",
             "items": [
                 {
+                  "contentType": "image",
+                  "url": "http://hdqwalls.com/wallpapers/captain-america-in-avengers-age-of-ultron.jpg",
+                  "contentMode": "scaleToFill",
+                  "padding": 16
+                },
+                {
                     "contentType": "image",
-                    "url": "https://pixabay.com/get/ea36b20a21fd1c22d2524518b745409ee171e1d104b0144296f5c47bafe9b7_1280.jpg",
-                    "contentMode": "scaleToFill",
+                    "url": "https://images2.alphacoders.com/150/150882.jpg",
+                    "contentMode": "aspectFill",
                     "padding": 16
                 },
+                  {
+                  "contentType": "image",
+                  "url": "http://getwallpapers.com/wallpaper/full/8/4/2/499429.jpg",
+                  "contentMode": "scaleToFill",
+                  "padding": 16
+                  },
                 {
                     "contentType": "image",
                     "url": "https://cdn.pixabay.com/photo/2015/04/08/01/47/superhero-712055_1280.jpg",

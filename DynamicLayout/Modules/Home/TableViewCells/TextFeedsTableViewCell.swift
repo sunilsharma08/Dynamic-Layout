@@ -21,6 +21,12 @@ class TextFeedsTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        self.contentView.layoutIfNeeded()
+        self.textFeedLabel.preferredMaxLayoutWidth = self.textFeedLabel.frame.width - (textFeedLabel.insets.left + textFeedLabel.insets.right)
+    }
+    
     func updateViewsWith(data: FeedItemModel) {
         if let textFeed = data as? TextFeed {
             let padding: CGFloat = CGFloat(textFeed.padding)
