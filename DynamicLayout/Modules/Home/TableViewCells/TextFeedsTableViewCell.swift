@@ -37,10 +37,8 @@ class TextFeedsTableViewCell: UITableViewCell {
             contentView.backgroundColor = UIColor(hexCode: textFeed.backGroundColor)
             textFeedLabel.font = UIFont(name: textFeed.fontName.rawValue,
                                         size: CGFloat(textFeed.fontSize))
-            textFeedLabel.sizeToFit()
         } else {
             textFeedLabel.text = nil
-            textFeedLabel.sizeToFit()
         }
         
     }
